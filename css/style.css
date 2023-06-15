@@ -1,0 +1,121 @@
+/* 
+    CSS Guide 
+
+    1.  General Styles (Normalize)
+
+ */
+
+
+ /* 1. ---General Styles--- */
+
+ body {
+    margin: 0px;
+    padding: 0px;
+   font-family: 'Inter', sans-serif;
+   font-weight: bold;
+}
+
+
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2, section h3, section p {
+    padding-left: 15px;
+}
+
+.spacer {
+    margin-top: 60px;
+}
+
+.txt-spacer {
+    margin-top: 30px;
+}
+
+ /* ---End of General Styles--- */
+
+
+ /*nav*/
+ .navigation-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    background-color: #f2f2f2;
+  }
+  
+  .nl {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .nl:hover {
+    background-color: #ddd;
+  }
+  
+
+  /*contact*/
+  
+.baseform {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group input[type="send"] {
+    background-color: #9caf9d;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .form-group input[type="send"]:hover {
+    background-color: #adbdae;
+  }
+
+  .text-center-foot {
+text-align: center;
+}
