@@ -114,3 +114,30 @@ section h2, section h3, section p {
   .text-center-foot {
 text-align: center;
 }
+
+
+
+
+/*FOR SALE BUTTON :BUY NOW (sale-page)*/
+
+.salebutton{
+
+  background-color: brown;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 70px;
+}
+
+.salebutton:hover {
+  background-color: #1cbcbf; /* Green */
+  color: white;
+}
