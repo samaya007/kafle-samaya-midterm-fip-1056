@@ -4,50 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS SCAFFOLD</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Billy Beer</title>
+
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <h1 class="hidden">Practice Scaffold Build</h1>
+    <h1 class="hidden">Practice FIP  Build</h1>
     <section class="spacer">
       <header class="grid-con">
-        <div class="col-span-3 m-col-span-2 l-col-span-2">
-          <img src="./image/fip-logo.png" alt="#">
-        </div>
-        <nav class="col-span-1 m-col-span-10 l-col-span-10">
-          <h2 class="hidden">Mobie Navigation</h2>
-          <!--BUG: the nav bar is not responive, will try to fix that with grid or media quary-->
-          <ul class="navigation-menu">
-            <li>
-              <a href="#" class="nl">Home</a>
-            </li>
-            <li>
-              <a href="./sale.html" class="nl">Product</a>
-            </li>
-            <li>
-              <a href="./contact.html" class="nl">Contact</a>
-            </li>
-          </ul>
+
+
+        <img class="col-span-1 m-col-span-1 l-col-span-1" src="./image/billybeer-logo.png" alt="#">
+        <nav id="navbar" class="col-start-4 col-end-5 m-col-span-11 l-col-span-11" >
+          <h2 class="hidden"> Main naigation menu</h2>
+        
+        <a href="#">Home</a>
+        <a href="./sale.html">Sale</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <a href="#">Delivery</a>
+        
+        </nav>    
+        <br>
+        
+        <!--  ISSUE in mobile nav menu
+        <nav id="navbar" class="col-start-4 mobile">
+          <h2 class="hidden"> mobile navigation menu</h2>
+          
+        <a href="#">Home</a>
+        <a href="#">Sale</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <a href="#">Delivery</a>
+        
         </nav>
+         -->
+
+
+
+
+
       </header>
       <section class="grid-con">
         <h2 class="hidden">Hero Image</h2>
         <div class="col-span-4 m-col-span-12 l-col-span-12 ">
-          <img src="./image/hero.png" alt="#">
+          <img src="./image/new-index-heroimage.png" alt="#">
         </div>
       </section>
+
+
+
+
+
+      <br>
       <section class="grid-con">
         <h2 class="hidden">Offer Section</h2>
-        <div class="col-span-4  m-col-span-6 l-col-span-6 ">
+        <div class="col-span-4      m-col-span-4 m-col-start-2        l-col-span-4 l-col-start-2 ">
           <img src="./image/pickup1.png" alt="#">
         </div>
-        <div class="col-span-4  m-col-span-6 l-col-span-6 ">
+
+        <div class="col-span-4       m-col-span-4  m-col-start-8                 l-col-span-4 l-col-start-8 ">
           <img src="./image/pickup2.png" alt="#">
         </div>
+
+
+
+        
       </section>
       <section class="grid-con">
         <h2 class="hidden"> Items Section</h2>
@@ -77,38 +100,45 @@
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis numquam harum iure minima perspiciatis omnis eveniet aut ducimus minus praesentium. Dolor quod hic reiciendis eos adipisci, necessitatibus reprehenderit assumenda itaque.</p>
         </div>
       </section>
+      <br>
+      <br>
+
+<!--here I will try to add the read more button diretcly infront of image-->
       <section class="grid-con">
         <h2 class="hidden">Article Section</h2>
         <div class="col-span-4 m-col-span-4 l-col-span-4 ">
           <img src="./image/stock-imageBeer_Fudge_Bars-HPTile.jpg" alt="#">
+<a href="#"> Learn More</a>
         </div>
+
         <div class="col-span-4 m-col-span-4 l-col-span-4 ">
           <img src="./image/stock-image-what-is-gluten-free-beer-archive.jpg" alt="#">
+          <a href="#"> Learn More</a>
+
         </div>
+
         <div class="col-span-4 m-col-span-4 l-col-span-4 ">
           <img src="./image/stock-image-what-is-Vienna-lager-archive.jpg" alt="#">
+          <a href="#"> Learn More</a>
+
         </div>
       </section>
-      <!--plan on buiding a seperate contact us webpage-->
-      <div class="baseform">
-        <h2>Any queries ?</h2>
-        <br>
-        <form>
-          <div class="form-group">
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-          </div>
-          <div class="form-group">
-            <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
-          </div>
-          <div class="form-group">
-            <input type="Send" value="Send">
-          </div>
-        </form>
-      </div>
-      <!--will try to add footr navigation meny as well-->
+<br>
+<br>
+    
+<p class="contact"> Contact Us</p>
+
+
+
+
+
+
+
+
+
+
+      <!--will try to add footer navigation meny as well-->
+
       <footer class="grid-con">
         <h2 class="hidden">Website Footer</h2>
         <div class="col-span-4 m-col-span-12 l-col-span-12">
