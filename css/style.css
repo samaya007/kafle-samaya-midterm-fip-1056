@@ -132,12 +132,30 @@ text-align: center;
   display: inline-block;
   font-size: 12px;
   transition-duration: 0.4s;
-  margin-top: 5px;
-margin-bottom: 5px;
-margin-left: 70px;
+
+  transition: transform 0.3s ease;
+
+  margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 50px;
 }
 
 .salebutton:hover {
-  background-color: #1cbcbf; /* Green */
+  background-color: #1cbcbf;
   color: white;
 }
+
+.salebutton:hover {
+  transform: scale(1.1);
+}
+
+
+
+/*FOR SALE ITEM IMAGE*/
+.saleitemimage{
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 2%;
+
+}
+
